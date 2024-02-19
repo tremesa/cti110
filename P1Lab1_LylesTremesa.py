@@ -8,8 +8,8 @@ print()
 print()
 
 
-x = "Tremesa"
-print('Hey',(x))
+print('Hey', end=' ')
+fir_name = input()
 print('Welcome to zyBooks!')
 
 
