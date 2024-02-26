@@ -1,0 +1,34 @@
+# Tremesa Lyles
+
+ # 02/25/2024
+
+ # PHW2
+
+ # Travel expenses budget
+
+print('This program calculates and displays travel expenses', end=' ')
+user_num = int(input('Enter Budget:')) # enters numeric value for inital budget
+ 
+dest_name = input('Enter your travel destination:', end=' ') # enters destination name
+
+gas_budg = int(input('How much do you think you will spend on gas?', end=' ')) # enters numeric value for gas expense   
+
+hotel_budg = int(input('Approximately, how much will you need for accomodation/hotel?', end=' ')) # enters numeric value for hotel expense
+
+food_budg = int(input('Last, how much do you need for food?', end-' '))  # enters numeric value for food expense
+
+
+print('------------Travel Expenses------------')
+print('Location:', dest_name)
+print('Initial Budget:', user_num)
+print
+print
+print('Fuel:', gas_budg)
+print('Accomodation:', hotel_budg)
+print('Food:', food_budg)
+print
+print
+exp_num = int(gas_budg + hotel_budg + food_budg) # sum of all expenses
+print('Remaining Balance:', user_number - exp_num)  # Remaining Balance is budget minus expenses
+
+
